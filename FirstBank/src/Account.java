@@ -1,3 +1,4 @@
+// Import packages
 import java.util.Scanner;
 
 public class Account {
@@ -10,10 +11,10 @@ public class Account {
 	// Class constructor
 	Account(String cName, String cID) {
 		customerName = cName;
-		customerID = cID; 
+		customerID  = cID; 
 	}
 	
-	// Function for depositing money
+	// Function/method for depositing money
 	private void deposit(int amountOfMoney) {
 		if (amountOfMoney != 0) {
 			balance = balance + amountOfMoney;
@@ -126,7 +127,7 @@ public class Account {
 		
 		}
 	 } while (option != 'F');
-	System.out.println("Thank you for banking with us!");
+	System.out.println("Thank you for banking with us toda!");
 	}
 		
 	  
