@@ -127,7 +127,7 @@ public class Account {
 		
 		}
 	 } while (option != 'F');
-	System.out.println("Thank you for banking with us toda!");
+	System.out.println("Thank you for banking with us today!");
 	}
 		
 	  
