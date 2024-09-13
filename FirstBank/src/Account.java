@@ -124,6 +124,7 @@ public class Account {
 		default:
 			System.out.println("Error: invalid option. Please enter A, B, C, D, E, F");
 			break;
+			    
 		
 		}
 	 } while (option != 'F');
